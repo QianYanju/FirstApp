@@ -12,8 +12,9 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme"><!--此处将app主题进行自定义修改-->
-        <!--android:theme="@style/AppTheme" >-->
+        android:theme="@style/AppTheme" >
+ <!-- 此处将app主题进行自定义修改 -->
+        <!-- android:theme="@style/AppTheme" > -->
         <activity
             android:name="com.example.firstapp.MainActivity"
             android:label="@string/app_name" >
@@ -30,6 +31,10 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.firstapp.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.firstapp.Aa"
+            android:label="@string/title_activity_aa" >
         </activity>
     </application>
 
