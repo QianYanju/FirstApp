@@ -38,10 +38,10 @@ public class DisplayMessageActivity extends ActionBarActivity {
         // 	getActionBar().setDisplayHomeAsUpEnabled(true);
 			 	// }
 
-		if (savedInstanceState == null) {
-			getSupportFragmentManager().beginTransaction()
-					.add(R.id.container, new PlaceholderFragment()).commit();
-		}
+//		if (savedInstanceState == null) {
+//			getSupportFragmentManager().beginTransaction()
+//					.add(R.id.container, new PlaceholderFragment()).commit();
+//		}
 	}
 
 	@Override
